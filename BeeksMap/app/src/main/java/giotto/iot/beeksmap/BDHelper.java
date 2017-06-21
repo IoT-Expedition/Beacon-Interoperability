@@ -25,8 +25,8 @@ public class BDHelper {
 
     String bd_url = "https://bd-exp.andrew.cmu.edu:81";
     String url;
-    String client_id = "HMGHejNnjfgAIWyHAwM3L2YXjX9CAVnIkGkCthbm";
-    String client_secret = "x5vJMZtiDyt5K3NdnDrBz4DIrGMAvFjpzJQOeWopd6TOJ6nlep";
+    String client_id = "<CLIENT_ID>";
+    String client_secret = "<CLIENT_SECRET>";
     String access_url = bd_url+"/oauth/access_token/client_id="+client_id+"/client_secret="+client_secret;
 
     String access_token = null;
